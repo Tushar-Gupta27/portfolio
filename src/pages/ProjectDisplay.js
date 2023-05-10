@@ -48,9 +48,7 @@ function ProjectDisplay() {
             <h3 className="skills" style={{ color: "#3e497a" }}>
               Project Gallery
             </h3>
-            <p className="subtitle">
-              This is being shown due to some technical error in backend server
-            </p>
+            <p className="subtitle">{project.errSubtitle}</p>
             {project.gallery.map((e, i) => (
               <img src={e} key={i} alt="screenshot" />
             ))}

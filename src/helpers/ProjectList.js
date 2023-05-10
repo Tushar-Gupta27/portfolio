@@ -12,6 +12,16 @@ import Proj7 from "../assets/staticSS.png";
 import Proj8 from "../assets/simonSS.png";
 import Proj9 from "../assets/videoSS.png";
 
+import social1 from "../assets/img1.png";
+import social2 from "../assets/img2.png";
+import social3 from "../assets/img3.png";
+import social4 from "../assets/img4.png";
+import social5 from "../assets/img5.png";
+import social6 from "../assets/img6.png";
+import social7 from "../assets/img7.png";
+import social8 from "../assets/img8.png";
+import social9 from "../assets/img9.png";
+
 export const ProjectList = [
   {
     name: "Chat It Out",
@@ -23,6 +33,8 @@ export const ProjectList = [
     subtitle: "*More of a fullstack project rather than a frontend one",
     date: "April 2022",
     gallery: [Proj1, Proj10, Proj11, Proj12, Proj13],
+    errSubtitle:
+      "This is being shown due to some technical error in backend server",
   },
   {
     name: "Memories Social Media",
@@ -33,6 +45,19 @@ export const ProjectList = [
     desc: `A social media application allowing users to share their memorable images with the world`,
     subtitle: "",
     date: "May 2022",
+    gallery: [
+      social1,
+      social2,
+      social3,
+      social4,
+      social5,
+      social6,
+      social7,
+      social8,
+      social9,
+    ],
+    errSubtitle:
+      "There maybe possibilites that server might be down, thats why you are seeing these screenshots",
   },
   {
     name: "Movie Tracker",
