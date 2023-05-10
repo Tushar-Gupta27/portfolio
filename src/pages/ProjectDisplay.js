@@ -45,12 +45,11 @@ function ProjectDisplay() {
         <>
           <div className="projectGallery">
             <hr />
-            <h3 className="skills" style={{ color: "#3e497a" }}>
+            <h3 className="skills" style={{ color: "#3e497a", margin:"8px 0" }}>
               Project Gallery
             </h3>
             <p
               className="subtitle"
-              style={{ fontSize: "15px", color: "rgba(0,0,0,0.4)" }}
             >
               {project.errSubtitle}
             </p>

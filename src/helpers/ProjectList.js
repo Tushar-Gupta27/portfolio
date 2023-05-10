@@ -41,7 +41,7 @@ export const ProjectList = [
     image: Proj2,
     skills:
       "React, Redux, CSS, HTML, Socket.io, ExpressJS, NodeJS, MongoDB, JWT, REST API",
-    link: "",
+    link: "https://tushar-gupta27.github.io/socialmedia-ui/posts",
     desc: `A social media application allowing users to share their memorable images with the world`,
     subtitle: "",
     date: "May 2022",

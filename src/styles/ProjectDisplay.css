@@ -58,9 +58,9 @@
 .skillsBox .desc {
   font-size: 22px;
 }
-.skillsBox .subtitle {
+.project p.subtitle {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
 }
 .skillsBox .date {
   font-style: italic;
@@ -125,7 +125,7 @@ hr {
 }
 
 .projectGallery {
-  width: 70%;
+  width: 60%;
   margin: 10px auto;
 }
 .projectGallery img {
