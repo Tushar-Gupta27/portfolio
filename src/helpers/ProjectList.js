@@ -34,7 +34,7 @@ export const ProjectList = [
     date: "April 2022",
     gallery: [Proj1, Proj10, Proj11, Proj12, Proj13],
     errSubtitle:
-      "This is being shown due to some technical error in backend server",
+      "If the above link doesn't works, there maybe a possibility due to it being a fullstack app, that the server might be down, so you can see these screenshots",
   },
   {
     name: "Memories Social Media",
@@ -57,7 +57,7 @@ export const ProjectList = [
       social9,
     ],
     errSubtitle:
-      "There maybe possibilites that server might be down, thats why you are seeing these screenshots",
+      "If the above link doesn't works, there maybe a possibility due to it being a fullstack app, that the server might be down, so you can see these screenshots",
   },
   {
     name: "Movie Tracker",
