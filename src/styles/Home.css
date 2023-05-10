@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   align-items: center;
-  color: #5643fa;
+  color: #2d5ddf;
 }
 a {
   position: relative;
@@ -59,7 +59,7 @@ a {
   margin: 25px 0;
 }
 .skills {
-  color: #5643fa;
+  color: #2d5ddf;
   font-size: 35px;
   width: 100%;
   display: flex;
@@ -70,7 +70,7 @@ a {
 }
 
 .skills h1 {
-  color: #4533e7;
+  color: #2d5ddf;
   background-color: #f0f0f0;
   width: 100%;
   border-radius: 15px;
@@ -83,14 +83,15 @@ a {
 
 .list span {
   font-size: 20px;
-  color: #0d73d2;
+  color: #25a6ef;
 }
 .list span strong {
-  color: #4533e7;
+  /* color: #2d5ddf; */
+  color: #2d5ddf;
 }
 
 hr {
-  border: 4px dotted #5643fa;
+  border: 4px dotted #2d5ddf;
   border-right: none;
   border-bottom: none;
   border-left: none;
@@ -109,7 +110,7 @@ hr {
   background-color: white;
   border-radius: 10px;
   z-index: 10;
-  color: #5643fa;
+  color: #2d5ddf;
   transition: 0.3s ease-in-out;
   scale: 0;
   transform-origin: 0 0;

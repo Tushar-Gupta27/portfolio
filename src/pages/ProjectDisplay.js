@@ -47,7 +47,11 @@ function ProjectDisplay() {
             <hr />
             <h3
               className="skills"
-              style={{ color: "#5643fa", margin: "8px 0",background:"transparent" }}
+              style={{
+                color: "#2d5ddf",
+                margin: "8px 0",
+                background: "transparent",
+              }}
             >
               Project Gallery
             </h3>

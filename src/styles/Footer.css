@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   height: 200px;
-  background:  linear-gradient(to bottom, #2998ff, #5643fa);;
+  background: linear-gradient(to bottom, #2998ff, #5643fa);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
   background-color: white;
   border-radius: 10px;
   z-index: 10;
-  color: #5643fa;
+  color: #2d5ddf;
   transition: 0.3s ease-in-out;
   scale: 0;
   transform-origin: 0 0;
