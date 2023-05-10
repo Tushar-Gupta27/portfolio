@@ -11,7 +11,7 @@ function ProjectItem({ image, name, id }) {
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      <h2 style={{ color: "#21325e" }}> {name} </h2>
+      <h2 style={{}}> {name} </h2>
     </div>
   );
 }

@@ -28,7 +28,7 @@ export const ProjectList = [
     image: Proj1,
     skills:
       "React, Redux, CSS, HTML, Socket.io, ExpressJS, NodeJS, MongoDB, REST API, Styled Components",
-    link: "",
+    link: "https://jade-phoenix-20a805.netlify.app/",
     desc: `A realtime messaging application built using Sockets acting as the means of realtime communication`,
     subtitle: "*More of a fullstack project rather than a frontend one",
     date: "April 2022",
@@ -100,7 +100,7 @@ export const ProjectList = [
     name: "Landing Page",
     image: Proj7,
     skills: "HTML, CSS, JS",
-    link: "https://tushar-gupta27.github.io/Natours-Site/",
+    link: "https://tushar-gupta27.github.io/Natours-Landing/",
     desc: `A landing page for a tourism site `,
     subtitle: "",
     date: "May 2021",

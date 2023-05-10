@@ -8,7 +8,7 @@
 }
 .projects .projectTitle {
   text-align: center;
-  color: #3e497a;
+  color: #4533e7;
   font-size: 60px;
   font-weight: bolder;
 }
@@ -27,19 +27,19 @@
 .projectItem {
   border-radius: 15px;
   width: 300px;
-  height: 300px;
+  height: 270px;
   margin: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: 0.3s ease-in-out;
-  /* outline: 0px solid #3e497a; */
+  /* outline: 0px solid #5643fa; */
   /* outline-offset: 12px; */
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transform: scale(1.1);
-  /* outline: 2px solid #3e497a; */
+  /* outline: 2px solid #5643fa; */
 }
 
 .projectItem .bgImage {
@@ -54,7 +54,7 @@
 
 .projectItem h2 {
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #4533e7;
 }
 
 @media only screen and (max-width: 1300px) {

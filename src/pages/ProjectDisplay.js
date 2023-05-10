@@ -45,14 +45,13 @@ function ProjectDisplay() {
         <>
           <div className="projectGallery">
             <hr />
-            <h3 className="skills" style={{ color: "#3e497a", margin:"8px 0" }}>
+            <h3
+              className="skills"
+              style={{ color: "#5643fa", margin: "8px 0",background:"transparent" }}
+            >
               Project Gallery
             </h3>
-            <p
-              className="subtitle"
-            >
-              {project.errSubtitle}
-            </p>
+            <p className="subtitle">{project.errSubtitle}</p>
             {project.gallery.map((e, i) => (
               <img src={e} key={i} alt="screenshot" />
             ))}

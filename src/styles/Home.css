@@ -1,7 +1,9 @@
 .home {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+
   align-items: center;
-  color: #3e497a;
+  color: #5643fa;
 }
 a {
   position: relative;
@@ -9,6 +11,7 @@ a {
 
 .about {
   width: 100%;
+  border-radius: 15px;
   height: calc(100vh - 150px);
   display: flex;
   gap: 10px;
@@ -16,13 +19,16 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  /* background-color: #21325e; */
+  /* background: transparent; */
+  background-image: linear-gradient(to bottom left, #2998ff, #5643fa);
   color: #f0f0f0;
+  transition: 0.15s ease-in-out;
 }
 
 .about h2 {
   font-size: 80px;
-  color: #e9d35b;
+  color: #ffb900;
   height: 50px;
 }
 
@@ -53,16 +59,21 @@ a {
   margin: 25px 0;
 }
 .skills {
+  color: #5643fa;
   font-size: 35px;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background: #f0f0f0;
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #4533e7;
+  background-color: #f0f0f0;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .skills .list {
@@ -72,10 +83,14 @@ a {
 
 .list span {
   font-size: 20px;
+  color: #0d73d2;
+}
+.list span strong {
+  color: #4533e7;
 }
 
 hr {
-  border: 4px dotted #3e497a;
+  border: 4px dotted #5643fa;
   border-right: none;
   border-bottom: none;
   border-left: none;
@@ -94,7 +109,7 @@ hr {
   background-color: white;
   border-radius: 10px;
   z-index: 10;
-  color: #3e497a;
+  color: #5643fa;
   transition: 0.3s ease-in-out;
   scale: 0;
   transform-origin: 0 0;
@@ -164,7 +179,7 @@ hr {
   padding: 0 8px 0 5px;
   vertical-align: bottom;
   margin: 0;
-  color: #e9d35b;
+  color: #ffb900;
   font-family: "Caveat", cursive;
   font-size: 40px;
   font-weight: 700;

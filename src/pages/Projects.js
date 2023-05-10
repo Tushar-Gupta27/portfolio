@@ -15,7 +15,7 @@ function Projects() {
   }, []);
   return (
     <div className="projects">
-      <h1 style={{ color: "#21325e" }}> My Personal Projects</h1>
+      <h1 style={{ color: "#4533e7" }}> My Personal Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (

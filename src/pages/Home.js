@@ -18,7 +18,7 @@ function Home() {
         <h2> Hi, My Name is Tushar</h2>
         <div className="prompt">
           <p>
-            A{" "}
+            A
             <ul className="animatedText">
               <li>Frontend Developer</li>
               <li>Backend Developer</li>
@@ -63,10 +63,8 @@ function Home() {
         <h1
           style={{
             position: "sticky",
-            top: "0px",
+            top: "5px",
             zIndex: "10",
-            backgroundColor: "#f0f0f0",
-            width: "100%",
             height: "100px",
             textAlign: "center",
           }}
