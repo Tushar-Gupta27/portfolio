@@ -1,0 +1,134 @@
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.project p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+.project h1 {
+  margin-top: 80px;
+  color: #3e497a;
+  font-size: 32px;
+}
+.project img {
+  width: 700px;
+  border-radius: 10px;
+  margin: 10px 0 20px;
+  transition: 0.3s ease-in-out;
+}
+.project img:hover {
+  scale: 1.02;
+}
+
+.project p {
+  font-size: 24px;
+  color: #3e497a;
+}
+
+.project svg {
+  font-size: 50px;
+  margin: 5px 15px;
+  color: #3e497a;
+  /* outline-offset: 3px;
+  outline-width: 0;
+  outline-style: solid;
+  outline-color: #3e497a; */
+  border-radius: 50%;
+  transition: 0.1s ease-in-out;
+}
+.project svg:hover {
+  scale: 1.05;
+  /* outline-width: 3px; */
+}
+
+.skillsBox :is(h2, p) {
+  text-align: center;
+}
+
+.skillsBox p {
+  font-size: 26px;
+}
+
+.skillsBox .desc {
+  font-size: 22px;
+}
+.skillsBox .subtitle {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.skillsBox .date {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.skillsBox .skills {
+  font-size: 26px;
+  margin: 6px 0;
+}
+.skillsBox .check {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+hr {
+  width: 100%;
+  border: 4px dotted #3e497a;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  margin: 25px 0;
+}
+.deployedLink::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -30px;
+  font-size: 0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  padding: 7px;
+  background-color: #3e497a;
+  border-radius: 10px;
+  z-index: 10;
+  color: #f0f0f0;
+  transition: 0.3s ease-in-out;
+  scale: 0;
+  transform-origin: 0 0;
+}
+.deployedLink:hover::before {
+  scale: 1;
+}
+.deployedLink::after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 15px solid #3e497a;
+  border-top: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  transition: 0.3s ease-in-out;
+  scale: 0;
+  transform-origin: 0 60%;
+}
+.deployedLink:hover::after {
+  scale: 1;
+}
+
+.projectGallery {
+  width: 70%;
+  margin: 10px auto;
+}
+.projectGallery img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
