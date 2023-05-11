@@ -43,7 +43,7 @@ export const ProjectList = [
     image: Proj2,
     skills:
       "React, Redux, CSS, HTML, Socket.io, ExpressJS, NodeJS, MongoDB, JWT, REST API",
-    link: "https://tushar-gupta27.github.io/socialmedia-ui/posts",
+    link: "https://tushar-gupta27.github.io/socialmedia-ui",
     desc: `A social media application allowing users to share their memorable images with the world`,
     subtitle:
       "The site response maybe slow due to usage of a free server on the backend. The main focus of this project was to build a fullstack app rather than only a frontend one.",
