@@ -46,7 +46,7 @@ function ProjectDisplay() {
         >
           <GitHubIcon />
         </a>
-        {project.subtitle ? (
+        {project.subtitle !== "" ? (
           <p className="subtitle">{project.subtitle}</p>
         ) : null}
       </p>

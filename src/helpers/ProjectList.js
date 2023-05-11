@@ -32,7 +32,7 @@ export const ProjectList = [
     link: "https://jade-phoenix-20a805.netlify.app/",
     desc: `A realtime messaging application built using Sockets acting as the means of realtime communication`,
     subtitle:
-      "The site response maybe slow due to usage of a free server on the backend. It is a fullstack app rather than a frontend one",
+      "The site response maybe slow due to usage of a free server on the backend. The main focus of this project was to build a fullstack app rather than only a frontend one.",
     date: "April 2022",
     gallery: [Proj1, Proj10, Proj11, Proj12, Proj13],
     errSubtitle:
@@ -46,7 +46,7 @@ export const ProjectList = [
     link: "https://tushar-gupta27.github.io/socialmedia-ui/posts",
     desc: `A social media application allowing users to share their memorable images with the world`,
     subtitle:
-      "The site response maybe slow due to usage of a free server on the backend. It is a fullstack app rather than a frontend one",
+      "The site response maybe slow due to usage of a free server on the backend. The main focus of this project was to build a fullstack app rather than only a frontend one.",
     repoLink: "https://github.com/Tushar-Gupta27/SocialMedia-Code",
     date: "May 2022",
     gallery: [
