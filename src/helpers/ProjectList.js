@@ -28,6 +28,7 @@ export const ProjectList = [
     image: Proj1,
     skills:
       "React, Redux, CSS, HTML, Socket.io, ExpressJS, NodeJS, MongoDB, REST API, Styled Components",
+    repoLink: "https://github.com/Tushar-Gupta27/ChatApp",
     link: "https://jade-phoenix-20a805.netlify.app/",
     desc: `A realtime messaging application built using Sockets acting as the means of realtime communication`,
     subtitle: "*More of a fullstack project rather than a frontend one",
@@ -44,6 +45,7 @@ export const ProjectList = [
     link: "https://tushar-gupta27.github.io/socialmedia-ui/posts",
     desc: `A social media application allowing users to share their memorable images with the world`,
     subtitle: "",
+    repoLink: "https://github.com/Tushar-Gupta27/SocialMedia-Code",
     date: "May 2022",
     gallery: [
       social1,
@@ -64,6 +66,7 @@ export const ProjectList = [
     image: Proj3,
     skills: "React, CSS, HTML, Styled Components, TMDB API",
     link: "https://tushar-gupta27.github.io/MovieTracker/",
+    repoLink: "https://github.com/Tushar-Gupta27/MovieTracker",
     desc: `Want to get to know about a movie?, we got you, all the details on your tips`,
     subtitle:
       "The site response maybe slow due to usage of a free server on the backend",
@@ -72,6 +75,7 @@ export const ProjectList = [
   {
     name: "Admin Dashboard",
     image: Proj4,
+    repoLink: "https://github.com/Tushar-Gupta27/AdminDashboard",
     skills: "React, CSS, HTML, Firebase",
     link: "https://tushar-gupta27.github.io/AdminDashboard/",
     desc: `A template for a admin dashboard that can help admins make better decisions & overlook the operations`,
@@ -85,6 +89,7 @@ export const ProjectList = [
     link: "https://tushar-gupta27.github.io/wordleClone-code/",
     desc: `The game that took over when COVID had us in lockdown`,
     subtitle: "",
+    repoLink: "https://github.com/Tushar-Gupta27/wordleClone-code",
     date: "February 2022",
   },
   {
@@ -92,6 +97,7 @@ export const ProjectList = [
     image: Proj6,
     skills: "React, CSS, HTML, useReducer",
     link: "https://tushar-gupta27.github.io/ToDo/",
+    repoLink: "https://github.com/Tushar-Gupta27/ToDo",
     desc: `Never forget to do, what you wanted to do. Add upto 4 different lists`,
     subtitle: "",
     date: "July 2021",
@@ -101,6 +107,7 @@ export const ProjectList = [
     image: Proj7,
     skills: "HTML, CSS, JS",
     link: "https://tushar-gupta27.github.io/Natours-Landing/",
+    repoLink: "https://github.com/Tushar-Gupta27/Natours-Landing",
     desc: `A landing page for a tourism site `,
     subtitle: "",
     date: "May 2021",
@@ -110,6 +117,7 @@ export const ProjectList = [
     image: Proj8,
     skills: "HTML, CSS, JS, jQuery",
     link: "https://tushar-gupta27.github.io/Simon-Game/",
+    repoLink: "https://github.com/Tushar-Gupta27/Simon-Game",
     desc: `An unlimited memory game`,
     subtitle: "",
     date: "April 2021",
@@ -119,6 +127,7 @@ export const ProjectList = [
     image: Proj9,
     skills: "HTML, CSS, JS",
     link: "https://tushar-gupta27.github.io/Video-Background/",
+    repoLink: "https://github.com/Tushar-Gupta27/Video-Background",
     desc: `A landing page with video in the background `,
     subtitle: "",
     date: "April 2021",

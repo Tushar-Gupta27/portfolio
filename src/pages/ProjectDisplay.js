@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import InsertLinkIcon from "@mui/icons-material/InsertLink";
 import { useEffect } from "react";
 import "../styles/ProjectDisplay.css";
 
@@ -38,6 +39,15 @@ function ProjectDisplay() {
           data-tooltip="Deployed Link"
         >
           <GitHubIcon />
+        </a>
+        <a
+          href={project.repoLink}
+          target="_blank"
+          rel="noreferrer"
+          className="deployedLink"
+          data-tooltip="Repository Link"
+        >
+          <InsertLinkIcon />
         </a>
       </p>
       {/* <hr /> */}
