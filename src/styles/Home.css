@@ -9,6 +9,10 @@ a {
   position: relative;
 }
 
+ol {
+  width: 90%;
+}
+
 .about {
   width: 100%;
   border-radius: 15px;
@@ -33,7 +37,7 @@ a {
 }
 
 .about .prompt {
-  width: 40%;
+  width: 60%;
   font-size: 30px;
 }
 .icons svg {
@@ -78,7 +82,10 @@ a {
 
 .skills .list {
   list-style: none;
-  width: 60%;
+  width: 80%;
+}
+.skills .list li{
+  width: 100%;
 }
 
 .list span {
@@ -186,7 +193,7 @@ hr {
   font-weight: 700;
 }
 .animatedText li {
-  animation: move 4s ease-in-out infinite alternate;
+  animation: move 7s ease-in-out infinite alternate;
 }
 @keyframes move {
   0% {
@@ -206,6 +213,12 @@ hr {
   }
 }
 
+/* .list {
+  width: 100%;
+}
+.list li {
+  width: 100%;
+} */
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
