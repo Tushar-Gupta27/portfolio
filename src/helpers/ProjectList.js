@@ -31,7 +31,8 @@ export const ProjectList = [
     repoLink: "https://github.com/Tushar-Gupta27/ChatApp",
     link: "https://jade-phoenix-20a805.netlify.app/",
     desc: `A realtime messaging application built using Sockets acting as the means of realtime communication`,
-    subtitle: "*More of a fullstack project rather than a frontend one",
+    subtitle:
+      "The site response maybe slow due to usage of a free server on the backend. It is a fullstack app rather than a frontend one",
     date: "April 2022",
     gallery: [Proj1, Proj10, Proj11, Proj12, Proj13],
     errSubtitle:
@@ -44,7 +45,8 @@ export const ProjectList = [
       "React, Redux, CSS, HTML, Socket.io, ExpressJS, NodeJS, MongoDB, JWT, REST API",
     link: "https://tushar-gupta27.github.io/socialmedia-ui/posts",
     desc: `A social media application allowing users to share their memorable images with the world`,
-    subtitle: "",
+    subtitle:
+      "The site response maybe slow due to usage of a free server on the backend. It is a fullstack app rather than a frontend one",
     repoLink: "https://github.com/Tushar-Gupta27/SocialMedia-Code",
     date: "May 2022",
     gallery: [
@@ -68,8 +70,7 @@ export const ProjectList = [
     link: "https://tushar-gupta27.github.io/MovieTracker/",
     repoLink: "https://github.com/Tushar-Gupta27/MovieTracker",
     desc: `Want to get to know about a movie?, we got you, all the details on your tips`,
-    subtitle:
-      "The site response maybe slow due to usage of a free server on the backend",
+    subtitle: "",
     date: "September 2021",
   },
   {
