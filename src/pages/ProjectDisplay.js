@@ -26,9 +26,6 @@ function ProjectDisplay() {
         <hr />
         <h3 className="skills">Skills:</h3>
         <p>{project.skills}</p>
-        {project.subtitle ? (
-          <p className="subtitle">{project.subtitle}</p>
-        ) : null}
         <hr />
         <h3 className="check">Checkout the project</h3>
         <a
@@ -49,6 +46,9 @@ function ProjectDisplay() {
         >
           <GitHubIcon />
         </a>
+        {project.subtitle ? (
+          <p className="subtitle">{project.subtitle}</p>
+        ) : null}
       </p>
       {/* <hr /> */}
       {project.gallery ? (
