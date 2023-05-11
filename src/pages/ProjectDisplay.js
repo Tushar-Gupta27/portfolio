@@ -24,13 +24,13 @@ function ProjectDisplay() {
         <p className="desc">{project.desc}</p>
         <p className="date">{project.date}</p>
         <hr />
-        <h2 className="skills">Skills:</h2>
+        <h3 className="skills">Skills:</h3>
         <p>{project.skills}</p>
         {project.subtitle ? (
           <p className="subtitle">{project.subtitle}</p>
         ) : null}
         <hr />
-        <p className="check">Checkout the project</p>
+        <h3 className="check">Checkout the project</h3>
         <a
           href={project.link}
           target="_blank"
@@ -58,9 +58,9 @@ function ProjectDisplay() {
             <h3
               className="skills"
               style={{
-                color: "#2d5ddf",
                 margin: "8px 0",
                 background: "transparent",
+                fontSize: "26px",
               }}
             >
               Project Gallery
