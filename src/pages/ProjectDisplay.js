@@ -38,7 +38,7 @@ function ProjectDisplay() {
           className="deployedLink"
           data-tooltip="Deployed Link"
         >
-          <GitHubIcon />
+          <InsertLinkIcon />
         </a>
         <a
           href={project.repoLink}
@@ -47,7 +47,7 @@ function ProjectDisplay() {
           className="deployedLink"
           data-tooltip="Repository Link"
         >
-          <InsertLinkIcon />
+          <GitHubIcon />
         </a>
       </p>
       {/* <hr /> */}
